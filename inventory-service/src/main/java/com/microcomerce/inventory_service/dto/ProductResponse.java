@@ -1,0 +1,4 @@
+package com.microcomerce.inventory_service.dto;
+
+public record ProductResponse(Long id, String name, String category, String description) {
+}
